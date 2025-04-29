@@ -46,11 +46,16 @@ cd ../Receiver2Console && dotnet add package RabbitMQ.Client && dotnet add packa
 Inicie o RabbitMQ:
 
 Certifique-se de que o RabbitMQ está rodando (veja o comando Docker acima).
+
 Execute os projetos:
+
 Abra três terminais:
-Terminal 1: cd Receiver1 && dotnet run
-Terminal 2: cd Receiver2 && dotnet run
-Terminal 3: cd Producer && dotnet run
+
+**Terminal 1**: cd Receiver1 && dotnet run
+
+**Terminal 2**: cd Receiver2 && dotnet run
+
+**Terminal 3**: cd Producer && dotnet run
 
 Observe os resultados:
 O Producer enviará mensagens para a fila.
